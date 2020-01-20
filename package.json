@@ -4,7 +4,7 @@
   "description": "Page hit counter which saves data in memory.",
   "main": "index.js",
   "scripts": {
-    "debug": "nodemon --ignore './data/' ./index.js",
+    "debug": "nodemon --trace-warnings ./index.js",
     "start": "node ./index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
