@@ -1,0 +1,21 @@
+{
+  "name": "pagehit-ram",
+  "version": "1.0.0",
+  "description": "Page hit counter which saves data in memory.",
+  "main": "index.js",
+  "scripts": {
+    "debug": "nodemon --ignore './data/' ./index.js",
+    "start": "node ./index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/craigbuckler/pagehit-ram.git"
+  },
+  "author": "Craig Buckler",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/craigbuckler/pagehit-ram/issues"
+  },
+  "homepage": "https://github.com/craigbuckler/pagehit-ram#readme"
+}
