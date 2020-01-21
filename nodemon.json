@@ -2,10 +2,10 @@
   "script": "./index.js",
   "ext": "js json",
   "ignore": [
-    ".git/*",
+    ".git/",
     "*.md",
-    "testpages/*",
-    "node_modules/*"
+    "testpages/",
+    "node_modules/"
   ],
   "legacyWatch": true,
   "delay": 200,
